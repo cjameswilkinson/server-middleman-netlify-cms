@@ -1,10 +1,18 @@
 body {
-  background-color: #47fbce;
+  background-color: #fff;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
   padding: 18vh 1rem;
   text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  max-width: 700px;
+  margin: 4rem auto;
+}
+
+a {
+  color: rgb(14, 228, 232);
 }

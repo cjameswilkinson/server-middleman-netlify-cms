@@ -12,7 +12,7 @@ then
   echo '****STARTING DEPLOY****'
   echo `date '+%Y-%m-%d %H:%M:%S'`
   git pull 2>&1
-  /home/ec2-user/.rvm/gems/ruby-2.4.5/wrappers/middleman build 2>&1
+  /usr/local/bin/middleman build 2>&1
   echo '****ENDING DEPLOY****'
   exit 0
 fi
